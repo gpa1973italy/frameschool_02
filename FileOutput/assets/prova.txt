@@ -1,0 +1,10 @@
+[2013-01-22 08:30:41 - FileOutput] New emulator found: emulator-5556
+[2013-01-22 08:30:41 - FileOutput] Waiting for HOME ('android.process.acore') to be launched...
+[2013-01-22 08:32:52 - FileOutput] HOME is up on device 'emulator-5556'
+[2013-01-22 08:32:52 - FileOutput] Uploading FileOutput.apk onto device 'emulator-5556'
+[2013-01-22 08:32:52 - FileOutput] Installing FileOutput.apk...
+[2013-01-22 08:33:47 - FileOutput] Success!
+[2013-01-22 08:33:47 - FileOutput] Starting activity com.corso.fileoutput.FileOutputTestActivity on device emulator-5556
+[2013-01-22 08:33:52 - FileOutput] ActivityManager: Starting: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] cmp=com.corso.fileoutput/.FileOutputTestActivity }
+
+

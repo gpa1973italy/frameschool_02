@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GPAAndroPad</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="cancella">Cancella</string>
+    <string name="apri">Apri</string>
+    <string name="salva">Salva</string>
+    <string name="tmp">tmp</string>
+    <string-array name="access_modes">
+        <item >MODE_PRIVATE</item>
+        <item >MODE_WORLD_READABLE</item>
+        <item >MODE_WORLD_WRITABLE</item>
+        <item >MODE_APPEND</item>
+    </string-array>
+        <string name="inserire_il_testo_del_file_">Inserire il testo del file!</string>
+</resources>

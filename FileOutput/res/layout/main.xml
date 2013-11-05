@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:hint="@string/input_hint"
+        android:inputType="textMultiLine" >
+    </EditText>
+
+    <Spinner
+        android:id="@+id/mySpinner"
+        android:layout_width="fill_parent"
+        android:layout_height="48dp" >
+    </Spinner>
+
+    <LinearLayout
+        android:id="@+id/buttonLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="saveFile"
+            android:text="@string/save_label" >
+        </Button>
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="deleteFile"
+            android:text="@string/delete_label" >
+        </Button>
+
+        <Button
+            android:id="@+id/loadButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="loadFile"
+            android:text="@string/load_label" >
+        </Button>
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/output"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000" >
+    </TextView>
+
+    <LinearLayout
+        android:id="@+id/altriPulsanti"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="testClasseLeggiFile"
+            android:text="LeggiFile" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="avviaActivity2"
+            android:text="Activity2" />
+        
+        
+    </LinearLayout>
+
+</LinearLayout>
